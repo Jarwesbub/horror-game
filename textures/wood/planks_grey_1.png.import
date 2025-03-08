@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://khu13tafoyry"
-path.s3tc="res://.godot/imported/brick_wall_white_2.png-6070d397ee8c10c106fa643a226a3604.s3tc.ctex"
+uid="uid://bnuyq2rwtlrbb"
+path.s3tc="res://.godot/imported/planks_grey_1.png-72aea6fadbbfd4ed532852416dde6205.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/bricks/brick_wall_white_2.png"
-dest_files=["res://.godot/imported/brick_wall_white_2.png-6070d397ee8c10c106fa643a226a3604.s3tc.ctex"]
+source_file="res://textures/wood/planks_grey_1.png"
+dest_files=["res://.godot/imported/planks_grey_1.png-72aea6fadbbfd4ed532852416dde6205.s3tc.ctex"]
 
 [params]
 
