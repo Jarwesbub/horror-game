@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://4p14si6flp37"]
+
+[ext_resource type="Texture2D" uid="uid://jgl7ww0lmkgv" path="res://textures/wood/Planks036A_1K-PNG_Color.png" id="1_er4aw"]
+
+[resource]
+albedo_texture = ExtResource("1_er4aw")
+metallic_specular = 0.0
+texture_filter = 2

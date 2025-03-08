@@ -1,0 +1,36 @@
+newmtl PaintedPlaster012_1K-PNG_Color
+map_Kd textures/PaintedPlaster012_1K-PNG_Color.png
+
+newmtl __TB_empty
+map_Kd textures/__TB_empty.png
+
+newmtl bricks/brick1_color1
+map_Kd textures/bricks/brick1_color1.png
+
+newmtl bricks/brick_wall_white_1
+map_Kd textures/bricks/brick_wall_white_1.png
+
+newmtl ground/Asphalt027C_1K-PNG_Color
+map_Kd textures/ground/Asphalt027C_1K-PNG_Color.png
+
+newmtl ground/Concrete041B_1K-PNG_Color
+map_Kd textures/ground/Concrete041B_1K-PNG_Color.png
+
+newmtl metal/Pipe002_1K-PNG_Color
+map_Kd textures/metal/Pipe002_1K-PNG_Color.png
+
+newmtl metal/rusty_pipe1_color1
+map_Kd textures/metal/rusty_pipe1_color1.png
+
+newmtl painted/paint_damaged1_color1
+map_Kd textures/painted/paint_damaged1_color1.png
+
+newmtl painted/paint_damaged2_color2
+map_Kd textures/painted/paint_damaged2_color2.png
+
+newmtl white_wall/wall_white_0
+map_Kd textures/white_wall/wall_white_0.png
+
+newmtl wood/Planks034A_1K-PNG_Color
+map_Kd textures/wood/Planks034A_1K-PNG_Color.png
+

@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://s8vcyyuuhh7t"]
+
+[ext_resource type="Texture2D" uid="uid://drqvfgghoqqo0" path="res://textures/white_wall/Snow012_1K-PNG_AmbientOcclusion.png" id="1_8kat8"]
+
+[resource]
+albedo_texture = ExtResource("1_8kat8")
+metallic_specular = 0.0
+texture_filter = 2

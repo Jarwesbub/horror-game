@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dyyper0oc1gha"]
+
+[ext_resource type="Texture2D" uid="uid://bxhg5hb0ao8le" path="res://textures/wood/Chipboard002_1K-PNG_Color.png" id="1_1ilol"]
+
+[resource]
+albedo_texture = ExtResource("1_1ilol")
+metallic_specular = 0.0
+texture_filter = 2

@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dxd5sx0poyhfs"]
+
+[ext_resource type="Texture2D" uid="uid://bickgf5jymhw0" path="res://textures/metal/rusty_pipe1_color1.png" id="1_rw7ns"]
+
+[resource]
+albedo_texture = ExtResource("1_rw7ns")
+metallic_specular = 0.0
+texture_filter = 2
