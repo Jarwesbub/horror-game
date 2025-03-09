@@ -1,14 +1,29 @@
-[gd_scene load_steps=4 format=3 uid="uid://cuq8khima1eqr"]
+[gd_scene load_steps=6 format=3 uid="uid://cuq8khima1eqr"]
 
 [ext_resource type="Script" path="res://scripts/player/Player.cs" id="1_as0pl"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_e8nae"]
 radius = 0.6
-height = 2.6
+height = 2.8
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_fe3dh"]
 radius = 0.6
-height = 2.6
+height = 2.8
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dggag"]
+
+[sub_resource type="CSharpScript" id="CSharpScript_bb0gd"]
+script/source = "using System;
+using Godot;
+
+public partial class LegTrigger : CollisionShape3D
+{
+	public void EnterTrigger()
+	{
+
+	}
+}
+"
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_as0pl")
@@ -27,3 +42,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.17024, 0)
 
 [node name="SpotLight3D" type="SpotLight3D" parent="Head/Camera3D"]
 spot_range = 37.693
+
+[node name="LegTrigger" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="LegTrigger"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.884268, 0)
+shape = SubResource("BoxShape3D_dggag")
+script = SubResource("CSharpScript_bb0gd")
